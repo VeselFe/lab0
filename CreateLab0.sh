@@ -7,56 +7,34 @@ cd lab0
 
 touch cleffa5
 
-mkdir -p magnemite0/swellow
 mkdir -p magnemite0/swellow/arbok
 touch magnemite0/swellow/sandile
-mkdir -p magnemite0/vibrava
 mkdir -p magnemite0/vibrava/sandslash
 touch magnemite0/vibrava/walrein
-mkdir -p magnemite0/zubat
 mkdir -p magnemite0/zubat/buizel
 touch magnemite0/zubat/azumarill
 mkdir -p magnemite0/zubat/hitmonlee
 touch magnemite0/zubat/beartic
-touch magnemite0/persian
-touch magnemite0/abra
-touch magnemite0/shelmet
+touch magnemite0/{persian,abra,shelmet}
 
 touch mareep1
 touch pupitar7
 
-mkdir -p shroomish8
 mkdir -p shroomish8/venusaur
 touch shroomish8/venusaur/tepig
-mkdir -p shroomish8/venusaur/duosion
-mkdir -p shroomish8/darmanitan
-mkdir -p shroomish8/darmanitan
-touch shroomish8/darmanitan/cherrim
-mkdir -p shroomish8/darmanitan/anorith
-touch shroomish8/darmanitan/magcargo
-touch shroomish8/darmanitan/yanmega
-mkdir -p shroomish8/darmanitan/dragonite
-touch shroomish8/darmanitan/marill
-touch shroomish8/darmanitan/staravia
+mkdir -p shroomish8/{venusaur/duosion,darmanitan,lampent}
+mkdir -p shroomish8/darmanitan/{anorith,dragonite}
+touch shroomish8/darmanitan/{magcargo,yanmega,marill,staravia,cherrim}
 mkdir -p shroomish8/blaziken
 touch shroomish8/blaziken/carracosta
-mkdir -p shroomish8/blaziken/simisear
-mkdir -p shroomish8/blaziken/scolipede
-mkdir -p shroomish8/lampent
+mkdir -p shroomish8/blaziken/{simisear,scolipede}
 touch shroomish8/lampent/pineco
-mkdir -p shroomish8/lampent/dwebble
-mkdir -p shroomish8/lampent/machop
-mkdir -p shroomish8/lampent/kingdra
+mkdir -p shroomish8/lampent/{dwebble,machop,kingdra}
 touch shroomish8/axew
 
 mkdir -p victreebel7
-touch victreebel7/hydreigon
-touch victreebel7/venonat
-touch victreebel7/whiscash
-touch victreebel7/spoink
-mkdir -p victreebel7/buizel
-mkdir -p victreebel7/buizel/quilava
-mkdir -p victreebel7/buizel/magmortar
+touch victreebel7/{hydreigon,venonat,whiscash,spoink}
+mkdir -p victreebel7/buizel/{quilava,magmortar}
 
 # ввод содержимого
 cat > cleffa5 << "EOF"
